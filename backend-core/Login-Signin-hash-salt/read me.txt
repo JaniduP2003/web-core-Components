@@ -1,0 +1,7 @@
+docker ps  
+docker exec -it nextgen-builds-mysql-1 mysql -u janidu2003 -p
+
+SHOW DATABASES;
+USE resourcelydb
+SHOW TABLES;
+SELECT * FROM Users;
